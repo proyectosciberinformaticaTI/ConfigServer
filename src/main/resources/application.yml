@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: api-config
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          password: holt123456789
+          username: projectinformatic1196@gmail.com
+          uri: https://github.com/proyectosciberinformaticaTI/properties.git
+  security:
+    user:
+      name: root
+      password: s3cr3t
